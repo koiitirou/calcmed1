@@ -1,13 +1,13 @@
 import 'package:google_mobile_ads/google_mobile_ads.dart' as admob;
 import 'package:flutter/material.dart';
 
-String iAdId1 = 'ca-app-pub-3940256099942544/1033173712'; //test
-String bAdId1 = 'ca-app-pub-7235402962103532/6664840495'; //ios ID honban
-//String bAdId1 = 'ca-app-pub-7235402962103532/6259013365'; android honban
+//String iAdId1 = 'ca-app-pub-3940256099942544/1033173712'; //test
+//String bAdId1 = 'ca-app-pub-7235402962103532/6664840495'; //ios ID honban
+//String bAdId1 = 'ca-app-pub-7235402962103532/6259013365'; //android honban
 //String bAdId1 = 'ca-app-pub-7235402962103532/6664840495'; ios ID honban
-//String bAdId1 = 'ca-app-pub-3940256099942544/6300978111'; //test ID
+String bAdId1 = 'ca-app-pub-3940256099942544/6300978111'; //test ID
 
-class InterstitialAd1 {
+/* class InterstitialAd1 {
   /// The internal constructor.
   InterstitialAd1._internal();
 
@@ -73,7 +73,7 @@ class InterstitialAd1 {
       await load();
     }
   }
-}
+} */
 
 admob.BannerAd Banner1 = admob.BannerAd(
   adUnitId: bAdId1,

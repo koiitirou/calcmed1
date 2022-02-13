@@ -51,6 +51,9 @@
 
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7235402962103532~4954596598</string>
+<!--   ca-app-pub-7235402962103532~4954596598-->
+<!-- <string>ca-app-pub-7235402962103532~4954596598</string>  hoban ID  -->
+<!-- <string>ca-app-pub-7235402962103532~4954596598</string>  honban ID -->
 
 <key>LSApplicationQueriesSchemes</key>
 <array>

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'Cur_cal.dart';
+import 'Adr_cal.dart';
 import 'Bay_cal.dart';
 import 'Gam_cal.dart';
 import 'Div_cal.dart';
@@ -65,6 +67,8 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/Gam_cal', page: () => Gam_cal()),
         GetPage(name: '/Div_cal', page: () => Div_cal()),
         GetPage(name: '/Bay_cal', page: () => Bay_cal()),
+        GetPage(name: '/Adr_cal', page: () => Adr_cal()),
+        GetPage(name: '/Cur_cal', page: () => Cur_cal()),
       ],
     );
   }
